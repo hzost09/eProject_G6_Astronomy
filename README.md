@@ -1,8 +1,6 @@
 # eProject_G6_Astronomy
 
-# BLACK AND BLUE
-
-![index](https://user-images.githubusercontent.com/121652914/211315036-f2ed0b1c-ed5b-4208-9ea5-bd07ae145fd1.png)
+# Astronomy
 
 *************************************
 WELCOME TO OUR PROJECT
