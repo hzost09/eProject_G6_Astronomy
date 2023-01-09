@@ -1,0 +1,26 @@
+.title{
+    color: whitesmoke;
+    align-items: center;
+}
+
+.hinh{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    color:whitesmoke;
+    font-size: 50px;
+    font-style: bold, italic;
+}
+
+.info{
+    color: whitesmoke;
+    font-size: 30px;
+    border-top: double;
+    margin-left: 5px;
+}
+body{
+    background-image: url('/img/milky-way.jpg');
+}
