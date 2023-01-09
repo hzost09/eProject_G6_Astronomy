@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/angular.js"></script>
+  <script src="js/angular-route.js"></script>
+  <script src="js/angular-animate.js"></script>
+    <link rel="stylesheet" href="css/e2b.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Document</title>
+</head>
+<body ng-app="ob" ng-controller="minob" id="body1">
+  <header>
+    <div id="container">
+      <div class="div1">
+        <nav class="navbar navbar-dark bg-dark" id="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+          </div>
+          <div>
+            <ul id="main-menu"  class="ul1" class="nav nav-pills">
+              <li  class="aa1" ><a  class="a1" href="index.html">SOLAR SYSTEM</a>
+                              <ul id="sub-menu" class="navbar navbar-dark bg-dark">
+                                <li class="a3"><a class="a4" href="neptune.html">NEPTUNE</a></li>
+                                <li class="a3"><a class="a4" href="venus.html">VENUS</a></li>
+                                <li class="a3"><a class="a4" href="earth1.html">EARTH</a></li>
+                                <li class="a3"><a class="a4" href="mars.html">MARS</a></li>
+                                <li class="a3"><a class="a4" href="jupiter.html">JUPITER</a></li>
+                                <li class="a3"><a class="a4" href="saturn.html">SATURN</a></li>
+                                <li class="a3"><a class="a4" href="uranus.html">URANUS</a></li>
+                                <li class="a3"><a class="a4" href="neptune.html">NEPTUNE</a></li> 
+                              </ul>         
+                </li>
+                <li class="a1"><a class="a2" href="consteller.html">CONSTELLER</a></li>
+                <li class="a1"><a class="a2" href="comet.html">COMET</a></li>
+                <li class="a1"><a class="a2" href="observation.html">OBSERVATIONS</a></li>
+             
+            </ul>
+          </div>
+        </nav>
+        <div class="menumobile">
+          <p class="home"><a href=""> home</a></p>
+        <button class="icon" id="icon1">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+    
+        </button>
+      </div>
+   
+       
+   
+      </div>      
+    </div>
+    <div id="nav2" class="nav1" style="background-color: black;" style="list-style: none;">
+      <ul id="main-menu1"  class="ul11" class="nav nav-pills" >
+        <li  class="aa11 " ><p id="btn" class="a11" style="color: whitesmoke;" >SOLAR SYSTEM</p>
+                        <ul id="sub-menu1">
+                          <li class="a31"><a class="a41" href="neptune.html">NEPTUNE</a></li>
+                          <li class="a31"><a class="a41" href="venus.html">VENUS</a></li>
+                          <li class="a31"><a class="a41" href="earth1.html">EARTH</a></li>
+                          <li class="a31"><a class="a41" href="mars.html">MARS</a></li>
+                          <li class="a31"><a class="a41" href="jupiter.html">JUPITER</a></li>
+                          <li class="a31"><a class="a41" href="saturn.html">SATURN</a></li>
+                          <li class="a31"><a class="a41" href="uranus.html">URANUS</a></li>
+                          <li class="a31"><a class="a41" href="neptune.html">NEPTUNE</a></li> 
+                        </ul>         
+          </li>
+          <li class="a11"><a class="a21" href="consteller.html">CONSTELLER</a></li>
+          <li class="a11"><a class="a21" href="comet.html">COMET</a></li>
+          <li class="a11"><a class="a21" href="observation.html">OBSERVATIONS</a></li>
+         
+  </ul>
+</div>
+ </header>
+      <br>
+      <br>
+    <div>
+        <h1 class="h1">top 5 famous observatories</h1>
+    </div>
+    <br>
+    <div class="warpdiv" ng-repeat="data in datalist | limitTo:1">
+    <div class="warpdiv" > 
+        <div class="warpdiv"> <h2 class="h2">{{data.bigname}}</h2></div>
+        <br>
+    <div class="divimg"> <img class="img5" src="img/mauna kea.jpg" alt=""></div>
+    <br>
+    <div class="warpdiv">
+        <p class="p3"> 
+            <span class="b"> Name</span>: {{data.name}}
+            <br>
+           <span  class="b">Location</span>: {{data.location}}
+            <br>
+           <span  class="b"> Alternative names </span>: {{data.Alternativenames}}
+            <br>
+          <span  class="b"> Coordinates</span>: {{data.Coordinates}}
+        </p>
+    </div>
+ 
+    <div class="warpdiv">
+        <p class="p3"> {{data.d5}}</p>
+    </div>
+    <br>
+    <div class="warpdiv">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86172.60239189841!2d-155.53736888334458!3d19.809135429915287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7953bd838daa46cd%3A0xf288d380869e8d89!2sMauna%20Kea!5e0!3m2!1sen!2s!4v1672405488715!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+<br>
+<hr>
+
+
+<div class="warpdiv">
+    <div class="warpdiv"> <h2 class="h2">{{data.bigname1}}</h2></div>
+    <br>
+    <div class="divimg"><img class="img5" src="img/USA.NM.VeryLargeArray.02.jpg" alt=""></div>
+    <br>
+    <div class="warpdiv">
+        <p class="p3">
+            <span  class="b"> Name</span>: {{data.name1}}
+            <br>
+           <span  class="b">Location</span>: {{data.location1}}
+            <br>
+           <span  class="b"> Alternative names </span>: {{data.Alternativenames1}}
+            <br>
+          <span  class="b"> Coordinates</span>: {{data.Coordinates1}}
+        </p>
+    </div>
+    <div class="warpdiv">
+        <p class="p3">
+            {{data.d51}}
+        </p>
+    </div>
+    <br>
+    <div class="warpdiv">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d393276.96182115766!2d-108.05133410338607!3d34.073399800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872119b59e6299ad%3A0xa9c69a314be2379!2sVery%20Large%20Array!5e1!3m2!1sen!2s!4v1672405685868!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+<br>
+<hr>
+<div class="warpdiv">
+    <div class="warpdiv"> <h2 class="h2">{{data.bigname2}}</h2></div>
+    <br>
+    <div class="divimg"><img class="img5" src="img/royal_observatory_greenwich.jpg" alt=""></div>
+    <div class="warpdiv">
+        <p class="p3">
+            <span  class="b"> Name</span>: {{data.name2}}
+            <br>
+           <span  class="b">Location</span>: {{data.location2}}
+            <br>
+           <span  class="b"> Alternative names </span>: {{data.Alternativenames2}}
+            <br>
+          <span  class="b"> Coordinates</span>: {{data.Coordinates2}}
+        </p>
+    </div>
+    <div class="warpdiv">
+        <p class="p3">
+           {{data.d52}}
+
+        </p>
+    </div>
+</div>
+    <div class="warpdiv">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2310.2562838000576!2d-0.002688884365382156!3d51.47685297963011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a82a8ca9dca7%3A0x31abb25f451c8402!2sRoyal%20Observatory%20Greenwich!5e1!3m2!1sen!2s!4v1672405795982!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <br>
+    <hr>
+<div class="warpdiv">
+    <div class="warpdiv"> <h2 class="h2">{{data.bigname3}}</h2></div>
+    <br>
+    <div class="divimg"><img class="img5" src="img/kitt.jpg" alt=""></div>
+    <br>
+    <div class="warpdiv">
+        <p class="p3">
+            <span  class="b"> Name</span>: {{data.name3}}
+            <br>
+           <span  class="b">Location</span>: {{data.location3}}
+            <br>
+           <span  class="b"> Alternative names </span>: {{data.Alternativenames3}}
+            <br>
+          <span  class="b"> Coordinates</span>: {{data.Coordinates3}}
+        </p>
+    </div>
+    <div class="warpdiv"> 
+        <p class="p3">
+            {{data.d53}}
+        </p>
+    </div>
+    <br>
+    <div class="warpdiv">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18057.82869155637!2d-111.6105096018769!3d31.977083965599494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d671a99b76da93%3A0xa92aad5221dcf9de!2sKitt%20Peak%20National%20Observatory!5e1!3m2!1sen!2s!4v1672405856134!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+</div>
+<br>
+<hr>
+<div class="warpdiv">
+    <div class="warpdiv"> <h2 class="h2">{{data.bigname}}</h2></div>
+    <br>
+    <div class="divimg"><img class="img5" src="img/atacama.jpg" alt=""></div>
+    <br>
+    <div class="warpdiv">
+        <p class="p3">
+            <span  class="b"> Name</span>: {{data.name4}}
+            <br>
+           <span  class="b">Location</span>: {{data.location4}}
+            <br>
+           <span  class="b"> Alternative names </span>: {{data.Alternativenames4}}
+            <br>
+          <span  class="b"> Coordinates</span>: {{data.Coordinates4}}
+        </p>
+    </div>
+    <div class="warpdiv">
+        <p class="p3">
+            {{data.d54}}
+        </p>
+    </div>
+    <br>
+    <div class="warpdiv">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1384.4389074814726!2d-67.7547083456287!3d-23.023692457364437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96a9c7796689b38f%3A0x166b24c7c79757b2!2sAtacama%20Large%20Millimeter%20Array%20-%20ALMA%20Radio%20Telescope!5e1!3m2!1sen!2s!4v1672405897022!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+</div>
+<script src="js/e.js"></script> 
+<script src="json/ob.json"></script>
+</body>
+</html>

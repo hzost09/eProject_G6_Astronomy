@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic space</title>
+  <script src="js/jquery-3.6.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/angular.js"></script>
+  <script src="js/angular-route.js"></script>
+  <script src="js/angular-animate.js"></script>
+
+  <link rel="stylesheet" href="css/e27.css">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+  <header>
+    <div id="container">
+      <div class="div1">
+        <nav class="navbar navbar-dark bg-dark" id="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+          </div>
+          <div>
+            <ul id="main-menu"  class="ul1" class="nav nav-pills">
+              <li  class="aa1" ><a  class="a1" href="index.html">SOLAR SYSTEM</a>
+                              <ul id="sub-menu" class="navbar navbar-dark bg-dark">
+                                <li class="a3"><a class="a4" href="neptune.html">NEPTUNE</a></li>
+                                <li class="a3"><a class="a4" href="venus.html">VENUS</a></li>
+                                <li class="a3"><a class="a4" href="earth1.html">EARTH</a></li>
+                                <li class="a3"><a class="a4" href="mars.html">MARS</a></li>
+                                <li class="a3"><a class="a4" href="jupiter.html">JUPITER</a></li>
+                                <li class="a3"><a class="a4" href="saturn.html">SATURN</a></li>
+                                <li class="a3"><a class="a4" href="uranus.html">URANUS</a></li>
+                                <li class="a3"><a class="a4" href="neptune.html">NEPTUNE</a></li> 
+                              </ul>         
+                </li>
+                <li class="a1"><a class="a2" href="consteller.html">CONSTELLER</a></li>
+                <li class="a1"><a class="a2" href="comet.html">COMET</a></li>
+                <li class="a1"><a class="a2" href="observation.html">OBSERVATIONS</a></li>
+             
+            </ul>
+          </div>
+        </nav>
+        <div class="menumobile">
+          <p class="home"><a href=""> home</a></p>
+        <button class="icon" id="icon1">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+    
+        </button>
+      </div>
+   
+       
+   
+      </div>      
+    </div>
+    <div id="nav2" class="nav1" style="background-color: black;" style="list-style: none;">
+      <ul id="main-menu1"  class="ul11" class="nav nav-pills" >
+        <li  class="aa11 " ><p id="btn" class="a11" style="color: whitesmoke;" >SOLAR SYSTEM</p>
+                        <ul id="sub-menu1">
+                          <li class="a31"><a class="a41" href="neptune.html">NEPTUNE</a></li>
+                          <li class="a31"><a class="a41" href="venus.html">VENUS</a></li>
+                          <li class="a31"><a class="a41" href="earth1.html">EARTH</a></li>
+                          <li class="a31"><a class="a41" href="mars.html">MARS</a></li>
+                          <li class="a31"><a class="a41" href="jupiter.html">JUPITER</a></li>
+                          <li class="a31"><a class="a41" href="saturn.html">SATURN</a></li>
+                          <li class="a31"><a class="a41" href="uranus.html">URANUS</a></li>
+                          <li class="a31"><a class="a41" href="neptune.html">NEPTUNE</a></li> 
+                        </ul>         
+          </li>
+          <li class="a11"><a class="a21" href="consteller.html">CONSTELLER</a></li>
+          <li class="a11"><a class="a21" href="comet.html">COMET</a></li>
+          <li class="a11"><a class="a21" href="observation.html">OBSERVATIONS</a></li>
+         
+  </ul>
+</div>
+ </header>
+ <div id="warp" ng-app="myapp" ng-controller="ctr" >
+  <div class="bigdiv1" ng-repeat="data in datalist">
+    <div class="bigdiv1a "  >
+    <div class="bigtitle fs-1 fst-italic fw-bold" >
+     <p >{{data.bigtitle}}</p>
+    </div>
+    <div class="mintitle fs-3 fst-italic">
+      <p > {{data.mintitle}}</p>
+    </div>
+  </div>
+  </div>
+  <div class="bigbox">
+  <div class="container" >
+    <div class="box">
+        <div class="imgbx">
+        <img src="images/mercury.png" alt="mercury">
+            <div class="content3">
+                <h2> Mercury </h2>
+                <br>
+                <p>Mercury is the smallest planet in our solar system. It's just a little bigger than Earth's moon....</p>
+                <br>
+                <p><a href="mecury.html">learn more</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgbx">
+        <img src="images/venus.png" alt="venus">
+            <div class="content3">
+                <h2> Venus </h2>
+                <br>
+                <p>Venus isn't the closest planet to the Sun but it's still the hottest. With a thick atmosphere full of the greenhouse gas, clouds made of sulfuric acid.</p>
+                <br>
+                <p><a href="venus.html">learn more</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgbx">
+        <img src="images/earth.png" alt="earth">
+            <div class="content3">
+                <h2> Earth </h2>
+                <br>
+                <p>Our home planet Earth is a rocky, terrestrial planet. Earth is special because it is an ocean planet. Water covers 70% of Earth's surface.</p>
+                <br>
+                <p><a href="earth.html">learn more</a></p>
+            </div>
+        </div>  
+    </div>
+    
+    <div class="box">
+        <div class="imgbx">
+        <img src="images/mar.png" alt="mar">
+            <div class="content3">
+                <h2> Mars </h2>
+                <br>
+                <p>Mars is a cold desert world. It is half the size of Earth. Mars is sometimes called the Red Planet. It's red because of rusty iron in the ground.</p>
+                <br>
+                <p><a href="mars.html">learn more</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgbx">
+        <img src="images/jupiter.png" alt="jupiter">
+            <div class="content3">
+                <h2> Jupiter </h2>
+                <br>
+                <p>Jupiter is the biggest planet in our solar system. Similar to a star, but it never got massive enough to start burning. It has big storms like the Great Red Spot, which has been going for hundreds of years.</p>
+                <br>
+                <p><a href="jupiter.html">learn more</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgbx">
+        <img src="images/saturn.png" alt="saturn">
+            <div class="content3">
+                <h2> Saturn </h2>
+                <br>
+                <p>Saturn isn't the only planet to have rings, but it definitely has the most beautiful ones. The rings we see are made of groups of tiny ringlets that surround Saturn.</p>
+                <br>
+                <p><a href="saturn.html">learn more</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgbx">
+        <img src="images/uranus.png" alt="uranus">
+            <div class="content3">
+                <h2> Uranus </h2>
+                <br>
+                <p>Uranus is made of water, methane, and ammonia fluids above a small rocky center. Its atmosphere is made of hydrogen and helium like Jupiter and Saturn</p>
+                <br>
+                <p><a href="uranus.html">learn more</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgbx">
+        <img src="images/neptune.png" alt="neptune">\
+            <div class="content3">
+                <h2> Neptune </h2>
+                <br>
+                <p>Neptune is dark, cold, and very windy. It's the last of the planets in our solar system. It's more than 30 times as far from the sun as Earth is.</p>
+                <br>
+                <p><a href="neptune.html">learn more</a></p>
+            </div>
+            </div>
+    </div>
+</div>
+</div>
+  <div class="bigdiv2" ng-repeat="data in datalist">
+    <div><p class="d1 fs-2 fst-italic fw-bold">Leasted New</p></div>
+
+    <hr> 
+    <br>
+    <div><p class="d2 fs-3 fst-italic ">{{data.date}}</p></div>
+    <br>
+    <div><p class="d3 fs-3 fst-italic fw-bold" > <a style="color: black;" href="new1c.html"> {{data.leastnew}}</a></p></div>
+  </div>
+  <div class="bigdiv3">
+    <div class="bigdiv3a">
+      <div class="div3a">
+        <img class="imgdiv3a"src="/img/earth.webp" alt="">
+        <div class="overplay1">
+          <div class="content">
+          <p ><a href="earth.html"> earth</a> </p>
+        </div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="bigdiv3b">
+      <div class="div3a">
+      <div >
+        <img class="imgdiv3b" src="/img/bigbang.jpg" alt="">
+      <div class="overplay1">
+      <div class="content">
+        <p > <a href="bigbang.html">bigbang</a> </p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<br>
+<div class="bigdiv4">
+  <br>
+  <br>
+  <br>
+  <div>
+    <h2 class="h2">news form space</h2>
+  </div>
+  <br>
+
+     <hr>
+     <br>
+     <br>
+     <div ng-controller="ctr1" ng-repeat="data in datalist">
+       <div class="news">
+         <div class="new1">  <img class="img1" src="/img/Molina.jpg" alt=""></div>
+         <div class="content1" > 
+          <p  class="p2"> <a href="new1a.html">{{data.topic1}}</a>  </p>
+          <p class="minp2">{{data.d1}}</p> 
+        </div>
+       </div>
+       <br>
+       <br>
+       <div>
+        <div class="news" >
+          <div class="new1">  <img class="img1" src="/img/christmastree.jpg" alt=""></div>
+          <div class="content1" > 
+           <p class="p2"><a href="new1b.html">{{data.topic2}}</a></p>
+           <p class="minp2">{{data.d2}}</p>
+       </div>
+     </div>
+    </div> 
+    <br>
+    <br>
+      <div class="news" >
+        <div class="new1">  <img class="img1" src="/img/topic3.jpg" alt=""></div>
+        <div class="content1"> 
+         <p class="p2"> <a href="new1c.html"> {{data.topic3}}</a></p> 
+          <p class="minp2">{{data.d3}}</p>
+        </div>
+ </div>
+  </div>
+  </div>
+</div>
+  <script src="js/e.js"></script>
+<script src="/json/eproject.json"></script>
+
+
+</body>
+</html>
