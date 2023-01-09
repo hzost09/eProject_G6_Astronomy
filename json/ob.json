@@ -1,0 +1,46 @@
+[
+    {
+        "bigname":"1.Mauna Kea Observatories",
+       "name": "Mauna Kea Observatories",
+       "location": "Mauna Kea, Hawaii County, Mauna Kea, Hawaii, US",
+       "Alternativenames": "MKO",
+       "Coordinates":"19°49′20″N 155°28′30″W",
+       "d5":"The Mauna Kea Observatories (MKO) are a group of independent astronomical research facilities and large telescope observatories that are located at the summit of Mauna Kea on the Big Island of Hawaiʻi, United States. The facilities are located in a 525-acre (212 ha) special land use zone known as the 'Astronomy Precinct', which is located within the 11,228-acre (4,544 ha) Mauna Kea Science Reserve."
+    ,
+
+        
+        "bigname1":"2.Very Large Array",
+        "name1": "Very Large Array",
+        "location1": "Socorro County, New Mexico",
+        "Alternativenames1": "VLA",
+        "Coordinates1":"34°04′43″N 107°37′04″W",
+        "d51":"The Karl G. Jansky Very Large Array (VLA) is a centimeter-wavelength radio astronomy observatory located in central New Mexico on the Plains of San Agustin, between the towns of Magdalena and Datil, ~50 miles (80 km) west of Socorro. The VLA comprises twenty-eight 25-meter radio telescopes deployed in a Y-shaped array and all the equipment, instrumentation, and computing power to function as an interferometer"
+    ,
+    
+        "bigname2":"3.Royal Observatory, Greenwich",
+        "name2": "Royal Observatory, Greenwich",
+       "location2": "Mauna Kea, Hawaii County, Mauna Kea, Hawaii, US",
+       "Alternativenames2": "Royal Greenwich Observatory",
+       "Coordinates2":"51°28′40″N 0°00′05″W",
+       "d52":"The Royal Observatory, Greenwich (ROG known as the Old Royal Observatory from 1957 to 1998, when the working Royal Greenwich Observatory, RGO, temporarily moved south from Greenwich to Herstmonceux) is an observatory situated on a hill in Greenwich Park in south east London, overlooking the River Thames to the north.It played a major role in the history of astronomy and navigation, and because the Prime Meridian passes through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC).The ROG has the IAU observatory code of 000, the first in the list."
+    ,
+    "bigname3":"4.The Kitt Peak National Observatory",
+        "name3": "The Kitt Peak National Observatory",
+       "location3": "Kitt Peak, Arizona, US",
+       "Alternativenames3": "KPNO",
+       "Coordinates3":"31°57′30″N 111°35′48″W",
+       "d53":"The Kitt Peak National Observatory (KPNO) is a United States astronomical observatory located on Kitt Peak of the Quinlan Mountains in the Arizona-Sonoran Desert on the Tohono Oʼodham Nation, 88 kilometers (55 mi) west-southwest of Tucson, Arizona. With more than twenty optical and two radio telescopes,it is one of the largest gatherings of astronomical instruments in the Earth's northern hemisphere.Kitt Peak National Observatory was founded in 1958."
+,
+
+    "bigname4":"5.Atacama Large Millimeter Array",
+    "name4": "Atacama Large Millimeter Array",
+    "location4": "Atacama Desert, Antofagasta Region, Atacama Desert, Chile ",
+    "Alternativenames4": "Atacama Large Millimeter and Submillimeter Array ",
+    "Coordinates4":"23°01′09″S 67°45′12″W",
+    "d54":"The Atacama Large Millimeter/submillimeter Array (ALMA) is an astronomical interferometer of 66 radio telescopes in the Atacama Desert of northern Chile, which observe electromagnetic radiation at millimeter and submillimeter wavelengths. The array has been constructed on the 5,000 m (16,000 ft) elevation Chajnantor plateau - near the Llano de Chajnantor Observatory and the Atacama Pathfinder Experiment. This location was chosen for its high elevation and low humidity, factors which are crucial to reduce noise and decrease signal attenuation due to Earth's atmosphere.[1] ALMA provides insight on star birth during the early Stelliferous era and detailed imaging of local star and planet formation."
+}
+]
+
+
+
+

@@ -1,0 +1,51 @@
+[
+{
+    "name":"1.Aquila",
+    "img1":"/aquila1.jpg",
+    "img2":"/aquila2.jpg",
+    "latin":"eagle",
+    "time":"late summer, September",
+    "p1":"This constellation lies in the Milky Way band, and its most prominent star is Altair, which is actually one of the closest naked eye stars to the earth. The top portion of Aquila forms a shallow inverted “V,” with Altair nearly the point. This represents the head and wings of the eagle. A line then descends from Altair, which forms the body of the eagle.This constellation lies in the Milky Way band, and its most prominent star is Altair, which is actually one of the closest naked eye stars to the earth. The top portion of Aquila forms a shallow inverted “V,” with Altair nearly the point. This represents the head and wings of the eagle. A line then descends from Altair, which forms the body of the eagle.Look towards the southern sky in the late summer, near the Milky Way band, for Aquila."
+},
+{
+  
+    "name":"2.Ursa Major",
+    "img1":"/major1.jpg",
+    "img2":"/major2.jpg",
+    "latin":"large bear",
+    "time":"April",
+    "p1":"The Big Dipper is popularly thought of as a constellation itself, but is in fact an asterism within the constellation of Ursa Major. It is said to be the most universally recognized star pattern, partially because it’s always visible in the northern hemisphere. It has great significance in the mythologies of multiple cultures around the world.The Greek myth of Ursa Major also tells the story of Ursa Minor (below). Zeus was smitten for a young nymph named Callisto. Hera, Zeus’s wife, was jealous, and transformed Callisto into a bear. While in animal form, Callisto encountered her son Arcas. Being the man that he was, he was inclined to shoot the bear, but Zeus wouldn’t let that happen, and so turned Arcas into a bear as well, and placed mother (Ursa Major) and son (Ursa Minor) permanently in the night sky."  
+},
+{
+    "name":"3.Ursa Minor",
+    "img1":"/minor1.jpg",
+    "img2":"/minor2.jpg",
+    "latin":"smaller bear",
+    "time":"june",
+    "p1":"Ursa Minor is famous for containing Polaris, the North Star. Many people erroneously think that the North Star is directly over their heads, but that’s only true at the North Pole. For most people in the Northern Hemisphere, it will be dipped into the night sky.Ursa Minor is better known as the Little Dipper. It’s visualized as a baby bear, with an unusually long tail. It can be distinguished from the Big Dipper not only by size, but by the emphasized curvature of the tail. When you’ve found the North Star at the end of the bear’s tail using the Big Dipper, it’s then easy to identify the rest of the constellation."
+},
+{
+    "name":"4.Lyra",
+    "img1":"/lyra1.jpg",
+    "img2":"/lyra2.jpg",
+    "latin":"lyre",
+    "time":"August",
+    "p1":"Lyra is associated with the myth of Orpheus the great musician. Orpheus was given the harp by Apollo, and it’s said that his music was more beautiful than that of any mortal man. His music could soothe anger and bring joy to weary hearts. Wandering the land in depression after his wife died, he was killed and his lyre (harp) was thrown into a river. Zeus sent an eagle to retrieve the lyre, and it was then placed in the night sky.Lyra sort of forms a lopsided square with a tail to its brightest star, Vega, which is one of the brightest stars in the sky. It is small, and almost directly overhead in the summer months, but the bright Vega makes it fairly easy to find."
+},
+{
+    "name":"5.Cygnus",
+    "img1":"/cyg1.jpg",
+    "img2":"/cyg2.jpg",
+    "latin":"swan",
+    "time":"April",
+    "p1":"The constellation may also have gotten its name from the tale of Phaethon and Cycnus. Phaethon was the son of Helios (the sun god), and took his father’s sun chariot for a ride one day. Phaethon couldn’t control the reins, however, and Zeus had to shoot down the chariot with Phaethon in it, killing him. Phaethon’s brother, Cycnus (now spelled Cygnus), spent many days grieving and collecting the bones, which so touched the gods that they turned him into a swan and gave him a place in the sky.The constellation may also have gotten its name from the tale of Phaethon and Cycnus. Phaethon was the son of Helios (the sun god), and took his father’s sun chariot for a ride one day. Phaethon couldn’t control the reins, however, and Zeus had to shoot down the chariot with Phaethon in it, killing him. Phaethon’s brother, Cycnus (now spelled Cygnus), spent many days grieving and collecting the bones, which so touched the gods that they turned him into a swan and gave him a place in the sky."
+},
+{
+    "name":"6.Orion",
+    "img1":"/orion1.jpg",
+    "img2":"/orion2.jpg",
+    "latin":" Orion, the mythological Greek hunter",
+    "time":"january",
+    "p1":"Orion is one of the largest and most recognizable of the constellations. It is viewable around the world, and has been mentioned by Homer, Virgil, and even the Bible, making it perhaps the most famous constellation Orion was a massive, supernaturally gifted hunter who was the son of Poseidon. It was said he regularly hunted with Artemis (Goddess of the Hunt) on the island of Crete, and that he was killed either by her bow, or by the sting of the great scorpion who later became the constellation Scorpius."
+}
+]
